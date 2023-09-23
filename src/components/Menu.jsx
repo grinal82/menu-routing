@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 
 
 export default function Menu() {
+    // определяем кастомный класс для стиля активной ссылки
     const active = ({ isActive }) =>
       isActive ? "menu__item menu__item-active" : "menu__item";
   
